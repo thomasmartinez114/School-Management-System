@@ -12,5 +12,18 @@ public class Student {
     private int feesPaid;
     private int feesTotal;
 
-    
+    /**
+     * To create a new student by initializing:
+     * @param id
+     * @param name
+     * @param grade
+     */
+
+    public Student(int id, String name, int grade) {
+
+        this.id = id;
+        this.name = name;
+        this.grade = grade;
+
+    }
 }
