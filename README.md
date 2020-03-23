@@ -1,4 +1,5 @@
 Create "School Management System" - "Students, Teachers and the Funds."
+https://www.youtube.com/watch?v=e0X00EoFQbE
 
 // Money management system for school.
 - Keep track of students total fees
@@ -23,5 +24,3 @@ Create "School Management System" - "Students, Teachers and the Funds."
 - grade
 - fees paid
 - fees total
-
-OOP 
