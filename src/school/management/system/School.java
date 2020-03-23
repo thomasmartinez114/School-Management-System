@@ -25,4 +25,12 @@ public class School {
         totalMoneyEarned = 0;
         totalMoneySpent = 0;
     }
+
+    /**
+     *
+     * @return the list of teachers in the school.
+     */
+    public List<Teacher> getTeachers() {
+        return teachers;
+    }
 }
