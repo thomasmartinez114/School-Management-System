@@ -41,5 +41,7 @@ public class Main {
                 + ghs.getTotalMoneyEarned());
 
         System.out.println(rakshith);
+
+        System.out.println(vanderhorn);
     }
 }
