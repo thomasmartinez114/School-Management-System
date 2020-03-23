@@ -27,14 +27,19 @@ public class Main {
 
         tamasha.payFees(5000);
         rakshith.payFees(6000);
+
         System.out.println("GHS has earned $" + ghs.getTotalMoneyEarned());
 
         System.out.println("-------Making GHS PAY SALARY-------");
+
         lizzy.receiveSalary(lizzy.getSalary());
         System.out.println("GHS has spent for salary to " + lizzy.getName() + " and now has $"
                 + ghs.getTotalMoneyEarned());
+
         vanderhorn.receiveSalary(vanderhorn.getSalary());
         System.out.println("GHS has spent for salary to " + vanderhorn.getName() + " and now has $"
                 + ghs.getTotalMoneyEarned());
+
+        System.out.println(rakshith);
     }
 }
