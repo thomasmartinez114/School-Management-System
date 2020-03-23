@@ -65,4 +65,12 @@ public class School {
     public int getTotalMoneyEarned() {
         return totalMoneyEarned;
     }
+
+    /**
+     * Adds the total money earned by the school.
+     * @param MoneyEarned money that is supposed to be added.
+     */
+    public void updateTotalMoneyEarned(int MoneyEarned) {
+        totalMoneyEarned += MoneyEarned;
+    }
 }
