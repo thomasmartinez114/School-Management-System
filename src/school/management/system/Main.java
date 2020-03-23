@@ -6,8 +6,15 @@ public class Main {
         Teacher melissa = new Teacher(2, "Melissa", 700);
         Teacher vanderhorn = new Teacher(3, "Vanderhorn", 600);
 
+        List<Teacher> teacherList = new ArrayList<>();
+        teacherList.add(lizzy);
+        teacherList.add(melissa);
+        teacherList.add(vanderhorn);
+
         Student tamasha = new Student(1, "Tamasha", 4);
         Student rakshith = new Student(2, "Rakshith", 12);
         Student thomas = new Student(3, "Thomas", 5);
+
+        School ghs = new School()
     }
 }
