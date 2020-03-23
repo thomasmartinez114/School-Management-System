@@ -33,4 +33,12 @@ public class School {
     public List<Teacher> getTeachers() {
         return teachers;
     }
+
+    /**
+     * Adds a teacher to the school
+     * @param teacher the teacher to be added.
+     */
+    public void addTeachers(Teacher teacher) {
+        teachers.add(teacher);
+    }
 }
