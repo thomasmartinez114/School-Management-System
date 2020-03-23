@@ -23,6 +23,6 @@ public class Main {
         studentList.add(rakshith);
         studentList.add(thomas);
 
-        School ghs = new School()
+        School ghs = new School(teacherList, studentList);
     }
 }
