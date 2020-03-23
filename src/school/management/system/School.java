@@ -57,4 +57,12 @@ public class School {
     public void addStudent(Student student) {
         students.add(student);
     }
+
+    /**
+     *
+     * @return the total money earned by the school.
+     */
+    public int getTotalMoneyEarned() {
+        return totalMoneyEarned;
+    }
 }
