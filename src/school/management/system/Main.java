@@ -18,6 +18,11 @@ public class Main {
         Student rakshith = new Student(2, "Rakshith", 12);
         Student thomas = new Student(3, "Thomas", 5);
 
+        List<Student> studentList = new ArrayList<>();
+        studentList.add(tamasha);
+        studentList.add(rakshith);
+        studentList.add(thomas);
+
         School ghs = new School()
     }
 }
