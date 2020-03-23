@@ -73,4 +73,12 @@ public class School {
     public void updateTotalMoneyEarned(int MoneyEarned) {
         totalMoneyEarned += MoneyEarned;
     }
+
+    /**
+     *
+     * @return the total money spent by the school.
+     */
+    public int getTotalMoneySpent() {
+        return totalMoneySpent;
+    }
 }
