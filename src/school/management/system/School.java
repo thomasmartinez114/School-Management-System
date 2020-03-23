@@ -81,4 +81,13 @@ public class School {
     public int getTotalMoneySpent() {
         return totalMoneySpent;
     }
+
+    /**
+     * update the money that is spent by the school which is
+     * the salary given by the school to its teachers
+     * @param moneySpent the money spent by school
+     */
+    public void updateTotalMoneySpent(int moneySpent) {
+        totalMoneyEarned -= moneySpent;
+    }
 }
