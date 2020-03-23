@@ -49,4 +49,12 @@ public class School {
     public List<Student> getStudents() {
         return students;
     }
+
+    /**
+     * Adds a student to the school
+     * @param student the student to be added.
+     */
+    public void addStudent(Student student) {
+        students.add(student);
+    }
 }
