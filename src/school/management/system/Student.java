@@ -47,7 +47,7 @@ public class Student {
      *
      * @param fees the fees that the student owes
      */
-    public void updateFeesPaid(int fees) {
+    public void payFees(int fees) {
         feesPaid += fees;
     }
 
@@ -91,4 +91,11 @@ public class Student {
         return feesTotal;
     }
 
+    /**
+     *
+     * @return the remaining fees
+     */
+    public int getRemainingFees() {
+        return feesTotal - feesPaid;
+    }
 }
