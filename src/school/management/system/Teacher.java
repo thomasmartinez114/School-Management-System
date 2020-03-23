@@ -65,5 +65,6 @@ public class Teacher {
      */
     public void receiveSalary(int salary) {
         salaryEarned += salary;
+        School.updateTotalMoneySpent(salary);
     }
 }
