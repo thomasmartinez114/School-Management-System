@@ -29,5 +29,7 @@ public class Main {
         rakshith.payFees(6000);
         System.out.println("GHS has earned $" + ghs.getTotalMoneyEarned());
 
+        System.out.println("-------Making GHS PAY SALARY-------");
+
     }
 }
