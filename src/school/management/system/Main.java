@@ -33,5 +33,8 @@ public class Main {
         lizzy.receiveSalary(lizzy.getSalary());
         System.out.println("GHS has spent for salary to " + lizzy.getName() + " and now has $"
                 + ghs.getTotalMoneyEarned());
+        vanderhorn.receiveSalary(vanderhorn.getSalary());
+        System.out.println("GHS has spent for salary to " + vanderhorn.getName() + " and now has $"
+                + ghs.getTotalMoneyEarned());
     }
 }
