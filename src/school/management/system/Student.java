@@ -99,4 +99,10 @@ public class Student {
     public int getRemainingFees() {
         return feesTotal - feesPaid;
     }
+
+    @Override
+    public String toString() {
+        return "Student's name : " + name +
+                ". Total fees paid so far $" + feesPaid;
+    }
 }
