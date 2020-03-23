@@ -25,5 +25,8 @@ public class Main {
 
         School ghs = new School(teacherList, studentList);
         System.out.println("GHS has earned $" + ghs.getTotalMoneyEarned());
+
+        tamasha.payFees(5000);
+
     }
 }

@@ -49,6 +49,7 @@ public class Student {
      */
     public void payFees(int fees) {
         feesPaid += fees;
+
     }
 
     /**
