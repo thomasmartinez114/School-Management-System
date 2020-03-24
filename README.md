@@ -2,7 +2,7 @@ Create "School Management System" - "Students, Teachers and the Funds."
 https://www.youtube.com/watch?v=e0X00EoFQbE
 
 - To Do List
-[ ] Refactor the Classes by using methods for each action 
+- [ ] Refactor the Classes by using methods for each action 
 
 // Money management system for school.
 - Keep track of students total fees
